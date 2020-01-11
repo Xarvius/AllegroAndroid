@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         String searchTerm = etSearchTerms.getText().toString();
         etSearchTerms.setText("");
-        // make loopj http call
         myLoopjTask.executeLoopjCall(searchTerm);
     }
 }

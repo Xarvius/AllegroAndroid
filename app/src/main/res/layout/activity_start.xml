@@ -10,8 +10,8 @@
 
     <Button
         android:id="@+id/Search"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="310dp"
+        android:layout_height="90dp"
         android:layout_marginStart="61dp"
         android:layout_marginLeft="61dp"
         android:layout_marginTop="252dp"
@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="193dp"
-        android:layout_height="0dp"
+        android:layout_width="195dp"
+        android:layout_height="69dp"
         android:layout_marginBottom="40dp"
         android:text="Credits"
         app:layout_constraintBottom_toTopOf="@+id/button2"

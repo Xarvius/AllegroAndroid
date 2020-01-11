@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText etSearchTerms;
     Button btnSearch;
     TextView tvSearchResults;
-    MyLoopjTask myLoopjTask;
+    SearchTask myLoopjTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnSearch.setOnClickListener(this);
 
-        myLoopjTask = new MyLoopjTask();
+        myLoopjTask = new SearchTask();
     }
 
     @Override

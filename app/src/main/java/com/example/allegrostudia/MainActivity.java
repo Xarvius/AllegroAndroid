@@ -2,6 +2,7 @@ package com.example.allegrostudia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,12 +10,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
     EditText etSearchTerms;
-    Button btnSearch;
-    TextView tvSearchResults;
-    MyLoopjTask myLoopjTask;
+    Button btnSearch, btnCategory;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,18 +23,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         etSearchTerms = (EditText) findViewById(R.id.etSearchTerms);
+
         btnSearch = (Button) findViewById(R.id.btnSearch);
-        tvSearchResults = (TextView) findViewById(R.id.tvSearchResults);
+        btnSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openStatisticActivity();
+            }
+        });
 
-        btnSearch.setOnClickListener(this);
+        btnCategory = (Button) findViewById(R.id.categoryStatisticBtn);
+        btnCategory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openStatisticActivity();
+            }
+        });
 
-        myLoopjTask = new MyLoopjTask();
+    }
+    private void openStatisticActivity(){
+        Intent intent = new Intent(this,StatisticActivity.class);
+        startActivity(intent);
     }
 
-    @Override
-    public void onClick(View v) {
-        String searchTerm = etSearchTerms.getText().toString();
-        etSearchTerms.setText("");
-        myLoopjTask.executeLoopjCall(searchTerm);
-    }
 }

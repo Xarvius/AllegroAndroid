@@ -1,0 +1,1724 @@
+{
+ "0": {
+  "id": "5",
+  "name": "Dom i Ogród",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "1520",
+     "name": "Budownictwo i Akcesoria",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "522",
+     "name": "Meble",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "1536",
+     "name": "Narzêdzia",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "1532",
+     "name": "Ogród",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "5317",
+     "name": "Oœwietlenie",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "123",
+     "name": "Wyposa¿enie",
+     "parent": {
+      "id": "5"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "1": {
+  "id": "11763",
+  "name": "Dziecko",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "82595",
+     "name": "Akcesoria dla mamy i dziecka",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "50673",
+     "name": "Artyku³y szkolne",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "82594",
+     "name": "Foteliki samochodowe",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "99333",
+     "name": "Karmienie dziecka",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "25952",
+     "name": "Obuwie",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "11764",
+     "name": "Odzie¿",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "88293",
+     "name": "Okazje, przyjêcia",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "17272",
+     "name": "Pokój dzieciêcy",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "86386",
+     "name": "Rowery i pojazdy",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "82593",
+     "name": "Wózki",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "11818",
+     "name": "Zabawki",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "86273",
+     "name": "Zabawki ogrodowe",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "17285",
+     "name": "Zdrowie i higiena",
+     "parent": {
+      "id": "11763"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "2": {
+  "id": "42540aec-367a-4e5e-b411-17c09b08e41f",
+  "name": "Elektronika",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "8845",
+     "name": "Fotografia",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "2",
+     "name": "Komputery",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122233",
+     "name": "Konsole i automaty",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "10",
+     "name": "RTV i AGD",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122332",
+     "name": "Sprzêt estradowy, studyjny i DJ-ski",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "4",
+     "name": "Telefony i Akcesoria",
+     "parent": {
+      "id": "42540aec-367a-4e5e-b411-17c09b08e41f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "3": {
+  "id": "4bd97d96-f0ff-46cb-a52c-2992bd972bb1",
+  "name": "Firma",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "64477",
+     "name": "Biuro i Reklama",
+     "parent": {
+      "id": "4bd97d96-f0ff-46cb-a52c-2992bd972bb1"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "16696",
+     "name": "Przemys³",
+     "parent": {
+      "id": "4bd97d96-f0ff-46cb-a52c-2992bd972bb1"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "4": {
+  "id": "a408e75a-cede-4587-8526-54e9be600d9f",
+  "name": "Kolekcje i sztuka",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "26013",
+     "name": "Antyki i Sztuka",
+     "parent": {
+      "id": "a408e75a-cede-4587-8526-54e9be600d9f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "6",
+     "name": "Kolekcje",
+     "parent": {
+      "id": "a408e75a-cede-4587-8526-54e9be600d9f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "257899",
+     "name": "Produkty inwestycyjne",
+     "parent": {
+      "id": "a408e75a-cede-4587-8526-54e9be600d9f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "76593",
+     "name": "Rêkodzie³o",
+     "parent": {
+      "id": "a408e75a-cede-4587-8526-54e9be600d9f"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "5": {
+  "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45",
+  "name": "Kultura i rozrywka",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "300881",
+     "name": "Bilety",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "20585",
+     "name": "Filmy",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "9",
+     "name": "Gry",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122640",
+     "name": "Instrumenty",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "257900",
+     "name": "Kody i do³adowania",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "7",
+     "name": "Ksi¹¿ki i Komiksy",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "1",
+     "name": "Muzyka",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "301130",
+     "name": "Wyj¹tkowe chwile",
+     "parent": {
+      "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45"
+     },
+     "leaf": true,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "6": {
+  "id": "ea5b98dd-4b6f-4bd0-8c80-22c2629132d0",
+  "name": "Moda",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "19732",
+     "name": "Bi¿uteria i Zegarki",
+     "parent": {
+      "id": "ea5b98dd-4b6f-4bd0-8c80-22c2629132d0"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "1454",
+     "name": "Odzie¿, Obuwie, Dodatki",
+     "parent": {
+      "id": "ea5b98dd-4b6f-4bd0-8c80-22c2629132d0"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "7": {
+  "id": "3",
+  "name": "Motoryzacja",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "253498",
+     "name": "Akcesoria samochodowe",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "18903",
+     "name": "Chemia",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": true,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "18553",
+     "name": "Czêœci do innych pojazdów",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "99022",
+     "name": "Czêœci do maszyn",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "156",
+     "name": "Czêœci i akcesoria motocyklowe",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "620",
+     "name": "Czêœci samochodowe",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "18554",
+     "name": "Narzêdzia i sprzêt warsztatowy",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": true,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "99193",
+     "name": "Opony i felgi",
+     "parent": {
+      "id": "3"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": true,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "8": {
+  "id": "258833",
+  "name": "Og³oszenia i us³ugi",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": false,
+   "advertisement": true,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "258905",
+     "name": "Motoryzacja",
+     "parent": {
+      "id": "258833"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "20782",
+     "name": "Nieruchomoœci",
+     "parent": {
+      "id": "258833"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "55067",
+     "name": "Wakacje",
+     "parent": {
+      "id": "258833"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "258904",
+     "name": "Zwierzêta",
+     "parent": {
+      "id": "258833"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "258972",
+     "name": "Us³ugi",
+     "parent": {
+      "id": "258833"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": false,
+      "advertisement": true,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "9": {
+  "id": "3919",
+  "name": "Sport i turystyka",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "147262",
+     "name": "Bieganie",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "252782",
+     "name": "Elektronika sportowa",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "253062",
+     "name": "Militaria",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "16414",
+     "name": "Rowery i akcesoria",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "19626",
+     "name": "Si³ownia i fitness",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "148302",
+     "name": "Skating, slackline",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13368",
+     "name": "Sporty dru¿ynowe",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "112252",
+     "name": "Sporty ekstremalne",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13408",
+     "name": "Sporty towarzyskie i rekreacja",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13522",
+     "name": "Sporty walki",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13535",
+     "name": "Sporty wodne",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13599",
+     "name": "Sporty zimowe",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "13638",
+     "name": "Tenis i pokrewne",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "121722",
+     "name": "Wêdkarstwo",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "3922",
+     "name": "Turystyka",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "3923",
+     "name": "Kolekcje",
+     "parent": {
+      "id": "3919"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "10": {
+  "id": "258832",
+  "name": "Supermarket",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "1528",
+     "name": "Artyku³y dla zwierz¹t",
+     "parent": {
+      "id": "258832"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "73973",
+     "name": "Produkty spo¿ywcze",
+     "parent": {
+      "id": "258832"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "253343",
+     "name": "Utrzymanie czystoœci",
+     "parent": {
+      "id": "258832"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "11": {
+  "id": "1429",
+  "name": "Uroda",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "45657",
+     "name": "Makija¿",
+     "parent": {
+      "id": "1429"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "45658",
+     "name": "Manicure i pedicure",
+     "parent": {
+      "id": "1429"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "135",
+     "name": "Perfumy i wody",
+     "parent": {
+      "id": "1429"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "1430",
+     "name": "Pielêgnacja",
+     "parent": {
+      "id": "1429"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122616",
+     "name": "Profesjonalne wyposa¿enie salonów",
+     "parent": {
+      "id": "1429"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ },
+ "12": {
+  "id": "121882",
+  "name": "Zdrowie",
+  "parent": null,
+  "leaf": false,
+  "options": {
+   "variantsByColorPatternAllowed": true,
+   "advertisement": false,
+   "advertisementPriceOptional": false,
+   "offersWithProductPublicationEnabled": false,
+   "productCreationEnabled": false,
+   "productEANRequired": false
+  },
+  "subcategories": {
+   "categories": [
+    {
+     "id": "258353",
+     "name": "Dermokosmetyki",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "63757",
+     "name": "Erotyka",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "257760",
+     "name": "Higiena jamy ustnej",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122423",
+     "name": "Korekcja wzroku",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122432",
+     "name": "Leki bez recepty",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "300349",
+     "name": "Materia³y higieniczne i opatrunkowe",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "258258",
+     "name": "Medycyna naturalna",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "259454",
+     "name": "Specjalistyczny sprzêt medyczny",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122554",
+     "name": "Sprzêt rehabilitacyjny i ortopedyczny",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122564",
+     "name": "Suplementy diety",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "258779",
+     "name": "Urz¹dzenia medyczne",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "259455",
+     "name": "Wyposa¿enie szpitali i gabinetów",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "259299",
+     "name": "Zdrowie intymne",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122506",
+     "name": "Zdrowie, medycyna",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    },
+    {
+     "id": "122599",
+     "name": "Pozosta³e",
+     "parent": {
+      "id": "121882"
+     },
+     "leaf": false,
+     "options": {
+      "variantsByColorPatternAllowed": true,
+      "advertisement": false,
+      "advertisementPriceOptional": false,
+      "offersWithProductPublicationEnabled": false,
+      "productCreationEnabled": false,
+      "productEANRequired": false
+     }
+    }
+   ]
+  }
+ }
+}

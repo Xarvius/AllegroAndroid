@@ -29,7 +29,7 @@ public class CategoryActivity extends AppCompatActivity {
         });
     }
     private void openCategoryActivity(){
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this,SubCategoryActivity.class);
         startActivity(intent);
     }
 }

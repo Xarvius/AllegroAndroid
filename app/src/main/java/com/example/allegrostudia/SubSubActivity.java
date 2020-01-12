@@ -32,7 +32,8 @@ public class SubSubActivity extends AppCompatActivity {
             Intent extras = getIntent();
             final long subID = extras.getLongExtra("ID", 20);
             final long prevID = extras.getLongExtra("prevID", 20);
-            List<String> categoriesList = JsonPath.read(json, "$.categories[" + prevID +"].subcategories.categories[" + subID +"].subcategories.categories[*].name");
+            final String jsonPath = "$.categories[" + prevID +"].subcategories.categories[" + subID +"].subcategories.categories[*].name";
+            List<String> categoriesList = JsonPath.read(json, jsonPath);
             String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
             listView = (ListView) findViewById(R.id.listView);
             Log.i(TAG, "asda " + categories);
@@ -41,18 +42,17 @@ public class SubSubActivity extends AppCompatActivity {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    openSubSubCategoryActivity(id, subID, prevID);
+                    openSubSubCategoryActivity(id, jsonPath);
                 }
             });
         } catch (Exception ex) {
             Log.e(TAG, ex.getMessage());
         }
     }
-    private void openSubSubCategoryActivity(long id, long subID, long prevID){
+    private void openSubSubCategoryActivity(long id, String jsonPath){
         Intent intent = new Intent(this,MainActivity.class);
-        intent.putExtra("thirdID", id);
-        intent.putExtra("sndID", subID);
-        intent.putExtra("firstD", prevID);
+        intent.putExtra("lastID", id);
+        intent.putExtra("jsonPath", jsonPath);
         startActivity(intent);
     }
     public String loadJSONFromAssets() {

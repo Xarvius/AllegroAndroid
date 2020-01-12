@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -26,6 +27,10 @@ public class CategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
+
+         getSupportActionBar().setDisplayShowHomeEnabled(true);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
          try {
              context = this;
              String json = loadJSONFromAssets();
@@ -44,6 +49,15 @@ public class CategoryActivity extends AppCompatActivity {
          } catch (Exception ex) {
              Log.e(TAG, ex.getMessage());
          }
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        if(id == android.R.id.home){
+            this.finish();
+        }
+        return super.onOptionsItemSelected(item);
     }
     private void openCategoryActivity(long id){
         Intent intent = new Intent(this, SubCategoryActivity.class);

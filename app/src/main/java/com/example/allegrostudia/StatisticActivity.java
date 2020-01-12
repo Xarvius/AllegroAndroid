@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 
 public class StatisticActivity extends AppCompatActivity {
     String TAG = MainActivity.class.getSimpleName();
@@ -13,6 +14,10 @@ public class StatisticActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statistic);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         try {
             Intent intent = getIntent();
             String btnID = intent.getStringExtra("ID");
@@ -23,5 +28,14 @@ public class StatisticActivity extends AppCompatActivity {
         }catch(Exception ex) {
             Log.e(TAG, ex.getMessage());
         }
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        if(id == android.R.id.home){
+            this.finish();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -13,7 +13,7 @@ import com.jayway.jsonpath.JsonPath;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class StatisticActivity extends AppCompatActivity {
+public class StatisticActivity extends AppCompatActivity implements OnLoopjCompleted{
     String TAG = MainActivity.class.getSimpleName();
     Context context;
     SearchTask searchTask;
@@ -26,22 +26,24 @@ public class StatisticActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         try {
+            context = this;
             String json = loadJSONFromAssets();
             Intent intent = getIntent();
             String btnID = intent.getStringExtra("ID");
             String jsonPath = intent.getStringExtra("jsonPath");
-            String productName = intent.getStringExtra("name");
-            String categoriesList = JsonPath.read(json, jsonPath);
+            String productName = "";
             if(btnID == "product"){
-
+                 productName = intent.getStringExtra("name");
             }
-            searchTask = new SearchTask();
+            String categoriesID = JsonPath.read(json, jsonPath);
+            searchTask = new SearchTask(productName, categoriesID, this);
+            searchTask.executeLoopjCall();
 
         }catch(Exception ex) {
             Log.e(TAG, ex.getMessage());
         }
     }
-<<<<<<< HEAD
+
     public String loadJSONFromAssets() {
         String json = null;
         try {
@@ -56,7 +58,8 @@ public class StatisticActivity extends AppCompatActivity {
         }
 
         return json;
-=======
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
@@ -65,6 +68,12 @@ public class StatisticActivity extends AppCompatActivity {
             this.finish();
         }
         return super.onOptionsItemSelected(item);
->>>>>>> 09fe663a54d4af0766529202fe5867d738ef0c2e
+
+    }
+
+    @Override
+    public void taskCompleted(String results) {
+        String priceList = JsonPath.read(results, "$.items.promoted[*].sellingMode,.price.amount.min()");
+        Log.i(TAG, "asda: " + priceList);
     }
 }

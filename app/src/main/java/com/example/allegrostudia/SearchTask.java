@@ -37,7 +37,7 @@ public class SearchTask {
                 super.onSuccess(statusCode, headers, response);
                 jsonResponse = response.toString();
                 loopjListener.taskCompleted(jsonResponse);
-                Log.i(TAG, "onSuccess: " + jsonResponse);
+//                Log.i(TAG, "onSuccess: " + jsonResponse);
             }
 
             @Override

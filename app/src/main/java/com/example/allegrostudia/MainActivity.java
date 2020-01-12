@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText etSearchTerms;
     Button btnSearch;
-    TextView tvSearchResults;
-    SearchTask myLoopjTask;
+    SearchTask searchTask;
     Button  btnCategory;
 
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        myLoopjTask = new SearchTask();
+        searchTask = new SearchTask();
     }
     private void openStatisticActivity(){
         Intent intent = new Intent(this,StatisticActivity.class);

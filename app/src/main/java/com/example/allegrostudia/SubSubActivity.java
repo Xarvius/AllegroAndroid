@@ -35,6 +35,7 @@ public class SubSubActivity extends AppCompatActivity {
             List<String> categoriesList = JsonPath.read(json, "$.categories[" + prevID +"].subcategories.categories[" + subID +"].subcategories.categories[*].name");
             String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
             listView = (ListView) findViewById(R.id.listView);
+            Log.i(TAG, "asda " + categories);
             ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
             listView.setAdapter(adapter);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

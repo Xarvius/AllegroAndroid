@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 
 import com.jayway.jsonpath.JsonPath;
 
@@ -20,6 +21,10 @@ public class StatisticActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statistic);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         try {
             String json = loadJSONFromAssets();
             Intent intent = getIntent();
@@ -36,6 +41,7 @@ public class StatisticActivity extends AppCompatActivity {
             Log.e(TAG, ex.getMessage());
         }
     }
+<<<<<<< HEAD
     public String loadJSONFromAssets() {
         String json = null;
         try {
@@ -50,5 +56,15 @@ public class StatisticActivity extends AppCompatActivity {
         }
 
         return json;
+=======
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        if(id == android.R.id.home){
+            this.finish();
+        }
+        return super.onOptionsItemSelected(item);
+>>>>>>> 09fe663a54d4af0766529202fe5867d738ef0c2e
     }
 }

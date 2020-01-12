@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         try {
             Intent intent = getIntent();
             String intentJsonPath = intent.getStringExtra("jsonPath");
@@ -50,7 +55,15 @@ public class MainActivity extends AppCompatActivity {
             Log.e(TAG, ex.getMessage());
         }
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
 
+        if(id == android.R.id.home){
+            this.finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
     private void openStatisticActivity(String btnID, String fullJsonPath, String name){
         Intent intent = new Intent(this,StatisticActivity.class);
         intent.putExtra("ID", btnID);

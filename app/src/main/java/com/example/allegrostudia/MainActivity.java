@@ -13,15 +13,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     EditText etSearchTerms;
-<<<<<<< HEAD
     Button btnSearch;
     TextView tvSearchResults;
     SearchTask myLoopjTask;
-=======
-    Button btnSearch, btnCategory;
+    Button  btnCategory;
 
 
->>>>>>> 15a00398820a2aa8d86b1590ab7439a9adca4083
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +43,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-<<<<<<< HEAD
+
         myLoopjTask = new SearchTask();
-=======
->>>>>>> 15a00398820a2aa8d86b1590ab7439a9adca4083
     }
     private void openStatisticActivity(){
         Intent intent = new Intent(this,StatisticActivity.class);

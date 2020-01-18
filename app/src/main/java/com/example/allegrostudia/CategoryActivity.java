@@ -20,25 +20,22 @@ import java.io.InputStream;
 import java.util.List;
 
 public class CategoryActivity extends AppCompatActivity {
+
      String TAG = MainActivity.class.getSimpleName();
      Context context;
      ListView listView;
+
      @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
-
-         getSupportActionBar().setDisplayShowHomeEnabled(true);
-         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
          try {
-             context = this;
-             String json = loadJSONFromAssets();
-             List<String> categoriesList = JsonPath.read(json, "$.categories[*].name");
-             final int childrenChecker = JsonPath.read(json, "$.categories[1].subcategories.categories.length()");
-             String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
-             listView = (ListView) findViewById(R.id.listView);
-             ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+
+             ArrayAdapter<String> adapter = extractFromJson();
+             listView = findViewById(R.id.listView);
              listView.setAdapter(adapter);
              listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                  @Override
@@ -63,6 +60,13 @@ public class CategoryActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SubCategoryActivity.class);
         intent.putExtra("ID", id);
         startActivity(intent);
+    }
+    public ArrayAdapter extractFromJson(){
+        context = this;
+        String json = loadJSONFromAssets();
+        List<String> categoriesList = JsonPath.read(json, "$.categories[*].name");
+        String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
+        return new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
     }
 
     public String loadJSONFromAssets() {

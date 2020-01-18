@@ -1,5 +1,5 @@
 package com.example.allegrostudia;
-import android.content.Context;
+
 import android.util.Log;
 
 import com.loopj.android.http.AsyncHttpClient;
@@ -17,10 +17,10 @@ public class SearchTask {
     RequestParams requestParams;
 
     String BASE_URL = "https://api.allegro.pl/offers/listing";
-    String TOKEN = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJhbGxlZ3JvX2FwaSJdLCJleHAiOjE1Nzg5NTEyMTQsImp0aSI6IjFlMTNlYzU3LWJmMGYtNDkzNC1hMjFmLTYzNDA2OGJkNTAzOSIsImNsaWVudF9pZCI6IjBkOGIyYzRhOTZjMzQ3Mjc5YTc5MTNmYThmOWI0YzNlIn0.aIkWvoE1NpwzxZrtNd8RbxcHMhPxh6eddinnScKI5ABfLopMwbJWJUF1d7adwouozFqW7Ilma9jcfdGEvH5K77ZaMAlzm4wJAj8zceeydZKzJS-FsW7ewq0UjiX1blhRxHowzoTc8ZH0y06j7-1b6XXGNvqIr4VTnV_wT_j2Ccr2a-IMKo3oDdxPnp0MgnxQ1c-uCQ-yzULLIn1RFILBsdigD-S2XsBNWjnlGeUyHhRDValEOp45lFRLsKS678bScHk8UrUirhFX8Jeg8C1WqOTuMCvrVxNfXPPkc0hAma2344hyKs_R9cevArJPkxCDgiFgpQErREjF_zadWSa1Cw";
+//    String TOKEN = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJhbGxlZ3JvX2FwaSJdLCJleHAiOjE1NzkzODQ4MTAsImp0aSI6IjY3NDU2ZjEwLWU4ZWEtNDNhNy05ZmVmLWU0YTRjMTNiMzI4YSIsImNsaWVudF9pZCI6IjBkOGIyYzRhOTZjMzQ3Mjc5YTc5MTNmYThmOWI0YzNlIn0.jRwgqU_u1RBV_TVcU48hQWz6hSERibACl-Ih_w-kioRBzBpm5ZHV0RCbvy0t3cW_tkCoclm64fjBuVbb3Wvq59DfRyOBinlWrveweqiVLWJ76wFirm4GNPtPC9J9OaHgK_YhAyPfgQD-iSJzq1FaP2YDiLBSXvNQJWRn2ShZDK8FCQ6ui9slrhQOjIrqZOBHeRCoOe_66WcDPF_YMQ67nNlf64exI-FKNKN_ucbExMW7Qb5V2NyRLRvF3lYLWPTOrZvijVokAogvK_SyIlvAlMfKFsZxdE4jYJ-tJS9_PCwraFVRdtBYACU8mgopKVNyhTeO26xpnx1ailzCSp61aA";
     String jsonResponse;
 
-    public SearchTask(String productName, String categoryID, OnLoopjCompleted listener) {
+    public SearchTask(String productName, String categoryID, OnLoopjCompleted listener, String TOKEN) {
         asyncHttpClient = new AsyncHttpClient();
         asyncHttpClient.addHeader("Authorization", "Bearer " + TOKEN);
         asyncHttpClient.addHeader("Accept", "application/vnd.allegro.public.v1+json");
@@ -37,7 +37,7 @@ public class SearchTask {
                 super.onSuccess(statusCode, headers, response);
                 jsonResponse = response.toString();
                 loopjListener.taskCompleted(jsonResponse);
-//                Log.i(TAG, "onSuccess: " + jsonResponse);
+                Log.i(TAG, "onSuccess: " + jsonResponse);
             }
 
             @Override

@@ -31,16 +31,12 @@ public class SubSubActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         try {
-            context = this;
-            String json = loadJSONFromAssets();
             Intent extras = getIntent();
             final long subID = extras.getLongExtra("ID", 20);
             final long prevID = extras.getLongExtra("prevID", 20);
             final String jsonPath = "$.categories[" + prevID +"].subcategories.categories[" + subID +"].subcategories.categories[*].name";
-            List<String> categoriesList = JsonPath.read(json, jsonPath);
-            String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
-            listView = (ListView) findViewById(R.id.listView);
-            ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+            ArrayAdapter<String> adapter= extractFromJson(jsonPath);
+            listView = findViewById(R.id.listView);
             listView.setAdapter(adapter);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -67,6 +63,14 @@ public class SubSubActivity extends AppCompatActivity {
         intent.putExtra("jsonPath", jsonPath);
         startActivity(intent);
     }
+    public ArrayAdapter extractFromJson(String jsonPath){
+        context = this;
+        String json = loadJSONFromAssets();
+        List<String> categoriesList = JsonPath.read(json, jsonPath);
+        String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
+        return new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+    }
+
     public String loadJSONFromAssets() {
         String json = null;
         try {

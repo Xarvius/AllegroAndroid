@@ -34,15 +34,10 @@ public class SubCategoryActivity extends AppCompatActivity {
 
 
         try {
-            context = this;
-            String json = loadJSONFromAssets();
             Intent extras = getIntent();
             final long subID = extras.getLongExtra("ID", 0);
-            List<String> categoriesList = JsonPath.read(json, "$.categories[" + subID +"].subcategories.categories[*].name");
-
-            String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
-            listView = (ListView) findViewById(R.id.listView);
-            ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+            ArrayAdapter<String> adapter= extractFromJson(subID);
+            listView = findViewById(R.id.listView);
             listView.setAdapter(adapter);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -69,6 +64,14 @@ public class SubCategoryActivity extends AppCompatActivity {
         intent.putExtra("prevID", subID);
         startActivity(intent);
     }
+    public ArrayAdapter extractFromJson(long subID){
+        context = this;
+        String json = loadJSONFromAssets();
+        List<String> categoriesList = JsonPath.read(json, "$.categories[" + subID +"].subcategories.categories[*].name");
+        String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
+        return new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+    }
+
     public String loadJSONFromAssets() {
         String json = null;
         try {

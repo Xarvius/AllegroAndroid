@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import  android.text.Editable;
 
 
@@ -35,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
             long subID = intent.getLongExtra("lastID", 0);
             String jsonPath = intentJsonPath.replace("*", Long.toString(subID));
             final String fullJsonPath = jsonPath.replace("name", "id");
-            etSearchTerms = (EditText) findViewById(R.id.etSearchTerms);
-            etSearchTerms.addTextChangedListener(textWatcher);
 
-            btnSearch = (Button) findViewById(R.id.BtnSearch);
-            btnCategory = (Button) findViewById(R.id.categoryStatisticBtn);
+            etSearchTerms = findViewById(R.id.etSearchTerms);
+            etSearchTerms.addTextChangedListener(textWatcher);
+            btnSearch = findViewById(R.id.BtnSearch);
+            btnCategory = findViewById(R.id.categoryStatisticBtn);
 
             btnSearch.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,StatisticActivity.class);
         intent.putExtra("ID", btnID);
         intent.putExtra("jsonPath", fullJsonPath);
-        intent.putExtra("name", fullJsonPath);
+        intent.putExtra("name", name);
         startActivity(intent);
     }
     private TextWatcher textWatcher = new TextWatcher(){

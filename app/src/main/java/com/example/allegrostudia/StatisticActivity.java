@@ -4,14 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.jayway.jsonpath.JsonPath;
-
-import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -39,19 +38,28 @@ public class StatisticActivity extends AppCompatActivity implements OnLoopjCompl
             Intent intent = getIntent();
             String btnID = intent.getStringExtra("ID");
             String jsonPath = intent.getStringExtra("jsonPath");
-            String productName = "";
-            if(btnID == "product"){
-                 productName = intent.getStringExtra("name");
-            }
+
+            String namePath = intent.getStringExtra("name");
+
+            String TOKEN = getSharedToken();
+
             String categoriesID = JsonPath.read(json, jsonPath);
-            searchTask = new SearchTask(productName, categoriesID, this);
+            if(btnID.equals("product")){
+                searchTask = new SearchTask(namePath, categoriesID, this, TOKEN);
+            }else{
+                searchTask = new SearchTask("", categoriesID, this, TOKEN);
+            }
+
             searchTask.executeLoopjCall();
 
         }catch(Exception ex) {
             Log.e(TAG, ex.getMessage());
         }
     }
-
+    public String getSharedToken(){
+        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0);
+        return pref.getString("accessToken", null);
+    }
     public String loadJSONFromAssets() {
         String json = null;
         try {
@@ -82,10 +90,21 @@ public class StatisticActivity extends AppCompatActivity implements OnLoopjCompl
     @Override
     public void taskCompleted(String results) {
         List<String> prices= JsonPath.read(results, "$.items.promoted[*].sellingMode.price.amount");
-        List<String> quantity= JsonPath.read(results, "$.items.promoted[*]");
+        List<Integer> quantity= JsonPath.read(results, "$.items.promoted[*].stock.available");
+        minMaxAvg(prices);
+        sumOfQuanity(quantity);
+    }
+    public void sumOfQuanity(List<Integer> quantity){
+        int fullQuantity = 0;
+        for (int temp : quantity) {
+            fullQuantity += temp;
+        }
+        textQua = findViewById(R.id.textViewQuantity);
+        textQua.setText(Integer.toString(fullQuantity));
+    }
+    public void minMaxAvg(List<String> prices){
         float avg = 0;
         int i = 0;
-        int fullQuantity = 0;
         float min=0;
         float max=0;
         for (String temp : prices){
@@ -100,14 +119,11 @@ public class StatisticActivity extends AppCompatActivity implements OnLoopjCompl
                 max = number;
         }
         avg = avg / i;
-        fullQuantity = quantity.size();
         textMin = findViewById(R.id.textViewMin);
         textMax = findViewById(R.id.textViewMax);
         textAvg = findViewById(R.id.textViewAvg);
-        textQua = findViewById(R.id.textViewQuantity);
         textMin.setText(Float.toString(min));
         textMax.setText(Float.toString(max));
         textAvg.setText(Float.toString(avg));
-        textQua.setText(Integer.toString(fullQuantity));
     }
 }

@@ -68,7 +68,7 @@ public class SubSubActivity extends AppCompatActivity {
         String json = loadJSONFromAssets();
         List<String> categoriesList = JsonPath.read(json, jsonPath);
         String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
-        return new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+        return new ArrayAdapter<String>(this, R.layout.whitecolorlistlayout , categories);
     }
 
     public String loadJSONFromAssets() {

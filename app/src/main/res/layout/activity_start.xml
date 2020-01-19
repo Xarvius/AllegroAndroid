@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gradient"
     tools:context=".StartActivity">
 
 
@@ -50,5 +51,14 @@
         app:layout_constraintTop_toBottomOf="@+id/creditBtn"
         app:layout_constraintVertical_bias="0.069"
         app:srcCompat="@drawable/ic_exit_to_app_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_allstats" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

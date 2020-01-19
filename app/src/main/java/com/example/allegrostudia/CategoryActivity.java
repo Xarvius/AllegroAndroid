@@ -4,13 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 
 import com.jayway.jsonpath.JsonPath;
@@ -55,7 +58,11 @@ public class CategoryActivity extends AppCompatActivity {
             this.finish();
         }
         return super.onOptionsItemSelected(item);
+
     }
+
+
+
     private void openCategoryActivity(long id){
         Intent intent = new Intent(this, SubCategoryActivity.class);
         intent.putExtra("ID", id);
@@ -66,7 +73,7 @@ public class CategoryActivity extends AppCompatActivity {
         String json = loadJSONFromAssets();
         List<String> categoriesList = JsonPath.read(json, "$.categories[*].name");
         String categories[] = categoriesList.toArray(new String [categoriesList.size()]);
-        return new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1 , categories);
+        return new ArrayAdapter<String>(this, R.layout.whitecolorlistlayout , categories);
     }
 
     public String loadJSONFromAssets() {

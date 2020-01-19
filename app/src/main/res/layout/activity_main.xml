@@ -4,21 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
 
     <EditText
         android:id="@+id/etSearchTerms"
         android:layout_width="206dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginLeft="39dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="72dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginRight="39dp"
         android:layout_marginBottom="77dp"
         android:layout_weight="3"
+        android:drawableLeft="@drawable/searchdesign"
+        android:background="@drawable/custom_edit_search"
         android:hint="szukany pordukt"
         app:layout_constraintBottom_toTopOf="@+id/BtnSearch"
         app:layout_constraintEnd_toEndOf="parent"

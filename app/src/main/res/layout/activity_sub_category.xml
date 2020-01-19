@@ -12,7 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="34dp"
         android:text="Podkategorie"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
